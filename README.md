@@ -67,6 +67,8 @@ studiomdl [options] <QC file>
   <dd>max sequencegroup size</dd>
 </dl>
 
+> Note: Your QC and SMD files has to use `LF` (Unix) line-endings in order to work.
+
 ## Contribute
 
 See the [guidelines for contributing][].
