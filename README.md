@@ -42,28 +42,28 @@ studiomdl [options] <QC file>
 #### Options
 
 <dl>
-  <dt><code>-t<code></dt>
+  <dt><code>-t</code></dt>
   <dd>texture</dd>
 
-  <dt><code>-r<code></dt>
+  <dt><code>-r</code></dt>
   <dd>tag reversed</dd>
 
-  <dt><code>-n<code></dt>
+  <dt><code>-n</code></dt>
   <dd>tag bad normals</dd>
 
-  <dt><code>-f<code></dt>
+  <dt><code>-f</code></dt>
   <dd>flip all triangles</dd>
 
-  <dt><code>-a<code></dt>
+  <dt><code>-a</code></dt>
   <dd>normal blend angle</dd>
 
-  <dt><code>-h<code></dt>
+  <dt><code>-h</code></dt>
   <dd>dump hboxes</dd>
 
-  <dt><code>-i<code></dt>
+  <dt><code>-i</code></dt>
   <dd>ignore warnings</dd>
 
-  <dt><code>-g size<code></dt>
+  <dt><code>-g size</code></dt>
   <dd>max sequencegroup size</dd>
 </dl>
 
