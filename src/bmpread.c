@@ -6,6 +6,7 @@
 #if !defined( _WIN32 )
 #include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
 
 typedef int LONG;
 typedef unsigned long ULONG;

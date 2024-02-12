@@ -1,6 +1,7 @@
 #include "cmdlib.h"
 #include <sys/types.h>
 #include <sys/stat.h>
+#include <unistd.h>
 
 #ifdef WIN32
 #include <direct.h>
@@ -233,7 +234,7 @@ void Q_getwd (char *out)
    _getcwd (out, 256);
    strcat (out, "\\");
 #else
-   getwd (out);
+   getcwd (out, 256);
 #endif
 }
 

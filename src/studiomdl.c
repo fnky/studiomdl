@@ -31,6 +31,15 @@ void clip_rotations( vec3_t rot );
 #define strcpyn( a, b ) strncpy( a, b, sizeof( a ) )
 
 int k_memtotal;
+int numbones = 0;
+int numrenamedbones = 0;
+int numhitgroups = 0;
+int numhitboxes = 0;
+s_bonecontroller_t bonecontroller[MAXSTUDIOSRCBONES];
+int numbonecontrollers = 0;
+s_attachment_t attachment[MAXSTUDIOSRCBONES];
+int numattachments = 0;
+
 void *kalloc( int num, int size )
 {
 	// printf( "calloc( %d, %d )\n", num, size );
